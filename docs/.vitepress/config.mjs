@@ -10,7 +10,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: 'BN 手册', link: '/欢迎来到BetterNemo手册' }
+      { text: 'BN 手册', link: '/欢迎来到BetterNemo手册' },
+      { text: 'BN Online', link: '/BN%20Online/README' }
     ],
 
     sidebar: generateSidebar({
